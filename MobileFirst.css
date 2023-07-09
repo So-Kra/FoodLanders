@@ -1,0 +1,369 @@
+/*
+
+Combination Breakpoints:
+
+Width X Height : 480 X 768, 768 X 1024  (portrait)
+Height X Width : 768 X 480, 1024 X 728 (landscape)
+Above 1k both PC
+*/
+/* For buttons & links I need around 22.5 vw*/
+
+/*
+*{
+    border: 1px solid #2ac75f;
+}
+*/
+
+/*
+*::after {
+    content: attr(class);
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 2px 4px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+  }
+  */
+
+
+ /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+text-decoration: none;
+color: inherit;
+}
+
+body {
+margin: 0;
+}
+html {
+font-size: 10px; /* You can adjust this value based on your preference */
+font-family: ConsulSans-750, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+
+.filler {
+background-color: #f5cb94f6;
+color: rgb(19, 18, 18);
+font-size: 0.9rem; /* Equivalent to 12px (0.75 * 16px) */
+padding: 0.15%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+} 
+    .heart {
+    width: 3.5%; /* 16px / 1920px = 0.0083333333 */
+    margin-bottom: -0.5%; /* -4px / 1920px = -0.0020833333 */
+    }
+    .social-media{
+    margin-left: -25%;
+    transform: scale(1.35)
+    }
+    .social-media a {
+    padding: 0.5vw;
+    }
+.panel {
+font-size: .7rem; /* Equivalent to 16px (1 * 16px) */
+text-align: center;
+color: #080808;
+padding: 5%;
+text-transform: uppercase;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-left: 3.5%; 
+margin-right: 3.5%; 
+padding-top: 2.5vh; /* 46px / 1920px = 0.0249583333 */
+margin-bottom: -1vh; /* -66px / 1920px = -0.0356770833 */
+}
+    .small-round-image {
+    width: 20vw; /* For bigger screen could go up to 8.33*/
+    height: auto; 
+    border-radius: 100%; 
+    max-width: 100%; 
+    }
+    .listing-horizontal:nth-child(1){
+    margin-right: 3.5%;
+    }
+    .listing-horizontal:nth-child(3){
+    margin-left: 3.5%;
+    }
+    .listing-horizontal li {
+    padding:1vw ; /*make this a percentage*/
+    font-size: .875rem;
+    display: inline;
+    }
+        .listing-horizontal .lens {
+        width: 1vw; 
+        transform: scale(1.425);
+        height: auto; 
+        }
+
+.line {
+border-bottom: 0.05208333vw solid rgb(231, 225, 225); /* 1px / 1920px = 0.0005208333 */
+padding: 0.5px;
+margin-left: 5%; /*15*/
+margin-right: 5%;
+}
+
+.small-content-box {
+display: flex;
+align-items: center ;
+justify-content: center;
+padding: 1.04166667vw; /* 20px / 1920px = 0.0104166667 */
+font-family: 'Great Vibes', cursive;
+font-style: italic;
+}
+.quote {
+font-size: 2.2rem; /* Equivalent to 32px (2 * 16px) */
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+color: #fcaf45;
+padding: 2.08333333vw; /* 40px / 1920px = 0.0208333333 */
+}
+
+.categories {
+color: #1f2937;
+font-size: 2rem; /* Equivalent to 32px (2 * 16px) */
+background-color: #fafafa;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 1.875vw; 
+}
+    .categories img {
+        max-width: 100%;
+        object-fit: cover;
+        height: 33vh;
+        width: 70vw;
+    }
+    .case {
+    font-size: 0.75rem; /* Equivalent to 12px (0.75 * 16px) */
+    font-weight: 100;
+    margin: 1.5vw; /* 40px / 1920px = 0.0208333333 */
+    max-width: 100%; /* 320px / 1920px = 0.1666666667 */
+    width: 32vw;
+    height:  auto; /* 440px / 967px = 0.228125 */
+    position: relative;
+    }
+        .case:hover {
+        /* transform: scale(1.1);*/
+        opacity: 0.8;
+        transform: scale(1.075)
+        }
+        .case:nth-child(1) {
+        margin-left:0.33%; /*15% in large screens*/
+        margin-right:0.33%;
+        }
+        .case:nth-child(3) {
+        margin-left:0.33%;
+        margin-right:0.33%;
+        }
+    .card {
+    font-size: 1.3rem; 
+    font-weight: 100;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+    font-style: italic;
+    background-color: #fcaf45;
+    color: rgb(255, 255, 255);
+    /*Enlarge Box & align text inside it*/
+    margin-left: 35%; 
+    position: absolute;
+    margin-top: -3.6vw; 
+    padding: 2%;
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+
+.filler:nth-child(6){
+    margin-top: 4%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+    .filler .lens {
+    width: 3.5vw; /* 20px / 1920px = 0.0104166667 */
+    height: auto; /* 20px / 1920px = 0.0104166667 */
+    margin-bottom: -0.30vh; /* -4px / 1920px = -0.0020833333 */
+    margin-left: 15%;
+    }
+    .search-bar input[type="text"] {
+    width: 100%;
+    height: 3%;
+    flex: 1;
+    border: none;
+    background: none;
+    }
+
+
+.latest-blog-update {
+background-color: #fafafa;
+border: 0.05vw solid #ddd; /* 1px / 1920px = 0.0005208333 */
+border-radius: 0.20vw; /* 4px / 1920px = 0.0020833333 */
+padding: 1vw; /* 20px / 1920px = 0.0104166667 */
+height: 26vh;
+width: 90vw;/* 33wv in large*/
+display: flex;
+margin-top: 5%; /* 3px / 967px = 0.003125 */
+margin-left: 5%; /* 20% in large*/
+}
+    .blog-image {
+    width: 90vw; /*70 in large*/
+    height: 25vh; 
+    margin-right: 2vw; 
+    max-width: 100%;
+    display: block;
+    }
+    .blog-text {
+    font-size: .9rem; 
+    margin-left: 4%;
+    position: relative; /*for read more static*/
+    overflow: hidden; /*for text overflw*/
+    width: 180%; /*for text overflw, hard sets the containers width*/
+    }
+        .blog-link {
+        color: #333;
+        }
+        .blog-title {
+        font-size: 1.2rem; /* 0.93 large */
+        margin-top: 3%; /*0;*/
+        margin-bottom: 3%;
+        }
+        .blog-date {
+        color: #888;
+        font-size: 0.8rem; /* 14px / 1920px = 0.0072916667 */
+        margin-top: 0.25w; /* 5px / 1920px = 0.0026041667 */
+        }
+        .blog-description {
+        margin-top: 2%; 
+        margin-bottom: 2%; 
+        font-weight: bold;
+        height: 13% ; /* Adjust this so that desceiption size does not affect text */
+        }
+        .blog-content{
+        display: -webkit-box;
+        -webkit-line-clamp: 5; /* Adjust this value to control the number of lines before truncating */
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        }
+
+        .read-more-container {
+        margin-top: 1%; /*25%*/
+        display: inline-block;
+        background-color: #000000ee;
+        padding: 0.41666667vw 0.41666667vw; 
+        border-radius: 0.20833333vw; 
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 2%;
+        }
+        a.read-more {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.95rem; /* 16px / 1920px = 0.0083333333 */
+        font-weight: bold;
+        text-transform: uppercase;
+        }
+
+.panel-end {
+font-size: 1rem; /* Equivalent to 16px (1 * 16px) */
+text-align: center;
+color: #080808;
+font-weight: 70;
+display: flex;
+align-items: center;
+justify-content: space-evenly; 
+padding: 2.34375vw; /* 45px / 1920px = 0.0234375 */
+margin-left: 0.33%;  /*5% in large screens*/
+margin-right: 0.33%; 
+margin-top: 5%;
+}
+
+/* Default styles for all devices */
+/*330x630 lower limit design | 480x960 max for phones & vice versa, so from 330 to 480 and 630 to 960 its us*/
+/*720 x1280 tablets & vice versa*/
+/*1280x720 to 1920x1080*/
+
+
+@media only screen and (orientation: landscape) {
+    html{
+        font-size: 12px;
+    }
+    .filler .social-media{
+        margin-left: 0;
+    }
+    .panel{
+        margin-top:2%;
+        padding: 2%;
+    }
+    .listing-horizontal .lens {
+    transform: scale(0.925);
+    margin-bottom: -2.5%;
+    }
+    .small-round-image {
+        width: 10vw; /* For bigger screen could go up to 8.33*/
+        }
+    .listing-horizontal .lens {
+        width: 1.55vw; 
+    }
+    .categories img {
+        height: 82vh;
+    }
+    .latest-blog-update {
+        height: 64vh;
+    }
+    .blog-image {
+        height: 60vh; 
+        width: 60vw;
+    }
+}
+
+
+@media only screen  and (min-width: 961px) and (max-width: 1279px) {
+}
+
+@media only screen  and (min-width: 1280px) {
+    html{
+        font-size: 18px;
+    }
+    .filler .social-media{
+        margin-left: 0;
+    }
+    .panel{
+        margin-top:2%;
+        padding: 2%;
+    }
+    .listing-horizontal .lens {
+    transform: scale(0.925);
+    margin-bottom: -2.5%;
+    }
+    .small-round-image {
+        width: 10vw; /* For bigger screen could go up to 8.33*/
+        }
+    .listing-horizontal .lens {
+        width: 1.55vw; 
+    }
+    .categories img {
+        height: 82vh;
+    }
+    .latest-blog-update {
+        height: 64vh;
+    }
+    .blog-image {
+        height: 60vh; 
+        width: 60vw;
+    }
+  }
+
