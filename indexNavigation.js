@@ -50,8 +50,9 @@ function includeHTML(file, elementId) {
 
 includeHTML('header.html', 'header');
 includeHTML('footer.html', 'footer');
-includeHTML('/home/sotokan/repos/foodlanders_bkp2/header.html', 'headerDeepPath');
-includeHTML('/home/sotokan/repos/foodlanders_bkp2/footer.html', 'footerDeepPath');
+includeHTML('../header.html', 'headerDeepPath');
+includeHTML('../footer.html', 'footerDeepPath');
+
 
 
 
