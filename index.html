@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,77 +7,35 @@
     <title>Foodlanders</title>
     <link rel="stylesheet" href="indexStyle.css">
     <link rel="stylesheet" href="typestyle.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="mediaQueries.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />  <!--socialmedia icons-->
 </head>
 
 <body>
 
-     <!--<button onclick="myFunction()">Click me</button>-->
-
-    <div class="filler">
-        <div class="text-item">
-            Curated content at your inbox every week, <a href="newsletter.html" class="newsletter-link">sign up <img src="images/utility/heart.png" alt="heart" class="heart"></a></p>
-        </div>
-        <div class="social-media">
-               <a href="https://www.instagram.com/foodlanders_ath/" target="_blank"><i class="fab fa-instagram"></i></a>
-               <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
-               <a href="mailto:foodlanders_ath@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
-        </div>  
-    </div>
-
- <!-- Landing -->
-    <div class="panel">
-        <div class="listing-horizontal">
-            <ul>
-                <li><a href="https://www.flickr.com/photos/lego7/35678065560">Trips</a></li>
-                <li><a href="https://www.flickr.com/photos/lego7/35678065560">Dining</a></li>
-                <li><a href="https://www.flickr.com/photos/lego7/35678065560">Recipes</a></li>
-            </ul>
-        </div>
-        <a href="index.html"><img src="images/utility/334711530_1368778470548537_670051939763938972_n.jpg" alt="" class="small-round-image"></a>
-        <div class="listing-horizontal">
-            <ul>
-                <li><a href="https://www.flickr.com/photos/lego7/35678065560">Home</a></li>
-				<li><a href="index.html">About</a></li>
-                <li><a href="https://www.flickr.com/photos/lego7/35678065560"></a><img src="images/utility/search.png" alt="search" class="lens"></li>  
-            </ul>
-        </div>
-    </div>
+    <div id="header"></div>
 
     <div class="line"></div>
 
 	<div class="small-content-box">
-		<div class="quote"> Food is our common ground 
-        </div>
-    
+		<div class="quote"> Food is our common ground </div>
     </div>
     
-        <div class="categories"> 
-            <div class="case"> 
-                <img src="images/landingImages/DiningLanding.png" alt=""> 
-                <div class="card">Dining</div>
-            </div>
-            <div class="case"> 
-                <img src="images/landingImages/RecipesLanding.png" alt=""> 
-                <div class="card">Recipes</div>
-            </div>
-            <div class="case"> 
-                <img src="images/landingImages/TripLanding.png" alt=""> 
-                <div class="card">Trips</div>
-            </div>
+    <div class="categories"> 
+        <div class="case"> 
+            <img src="images/landingImages/DiningLanding.png" alt=""> 
+            <div href="content/recipes.html" class="card">Dining</div>
         </div>
-    <!--
-    <div class="filler">
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search...">
-            <button id="search-button">Search</button>
+        <div class="case"> 
+            <a href="content/recipes.html"><img src="images/landingImages/RecipesLanding.png" alt="Recipes Category"></a>
+            <div class="card">Recipes</div>
         </div>
-    </div> -->
+        <div class="case"> 
+            <img src="images/landingImages/TripLanding.png" alt=""> 
+            <div class="card">Trips</div>
+        </div>
+    </div>
 
-    <div class="filler">
+    <div class="central-bar">
         <img src="images/utility/search.png" alt="search" class="lens">
 
       <div class="search-bar">
@@ -163,35 +121,11 @@
         </div>
     </div>  
     <div class="line"></div>
+    
+    <div id="footer"></div>
+ 
 
-    <div class="panel-end">
-         <!--
-        <div class="listing-vertical">
-		    <ul>
-			   <li><a href="https://www.flickr.com/photos/lego7/35678065560" ></a>Home</li>
-			   <li><a href="https://www.flickr.com/photos/lego7/35678065560" ></a>Dining</li>
-			   <li><a href="https://www.flickr.com/photos/lego7/35678065560" ></a>Recipes</li>
-			   <li><a href="https://www.flickr.com/photos/lego7/35678065560" ></a>Trips</li>
-			   <li><a href="https://www.flickr.com/photos/lego7/35678065560" ></a>Blog</li>
-			   <li><a href="https://www.flickr.com/photos/lego7/35678065560" ></a>Visits</li>
-			   <li><a href="https://www.flickr.com/photos/lego7/35678065560" ></a>Contact us</li>
-            </ul>
-        </div> -->
-
-        <img src="images/utility/334711530_1368778470548537_670051939763938972_n.jpg" alt="" class="small-round-image">  
-        <div class="text-item">
-        <div class="social-media">
-            Follow us on
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
-            <a href="mailto:foodlanders_ath@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
-         </div>  
-        <div class="footer">  © 2021 Foodlanders. All Rights Reserved.
-        </div>
-        </div> 
-    </div>
-
-<script src="indexNavigation.js"></script>    
+<script src="indexNavigation.js"></script>  
 
 </body>
 </html>

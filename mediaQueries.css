@@ -110,7 +110,7 @@
         margin-top: -5%; 
         padding: 0;}
 
-    .filler .lens {
+    .central-bar .lens {
         width: 2.5%; /* 20px / 1920px = 0.0104166667 */
         margin-bottom: -0.30vh; /* -4px / 1920px = -0.0020833333 */
         margin-left: 15%;
