@@ -6,10 +6,10 @@
     color: inherit;
     }
     
-    body {
-    margin: 0;
-    }
-    html {
-    font-size: 10px; /* You can adjust this value based on your preference */
-    font-family: ConsulSans-750, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    }
+body {
+margin: 0;
+}
+html {
+font-size: 10px; /* You can adjust this value based on your preference */
+font-family: ConsulSans-750, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}

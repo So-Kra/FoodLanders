@@ -57,6 +57,7 @@
     .small-round-image {
         width: 10vw; /* For bigger screen could go up to 8.33*/
         }
+        
     .categories img {
         height: 82vh;
     }
@@ -110,7 +111,7 @@
         margin-top: -5%; 
         padding: 0;}
 
-    .central-bar .lens {
+    .bar .lens {
         width: 2.5%; /* 20px / 1920px = 0.0104166667 */
         margin-bottom: -0.30vh; /* -4px / 1920px = -0.0020833333 */
         margin-left: 15%;

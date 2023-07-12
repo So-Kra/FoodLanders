@@ -55,12 +55,3 @@ includeHTML('/home/sotokan/repos/foodlanders_bkp2/footer.html', 'footerDeepPath'
 
 
 
-$(function () {
-  var includes = $('[data-include]')
-  $.each(includes, function () {
-    var file = '../' + $(this).data('include') + '.html'
-    $(this).load(file)
-  })  
-})
-
-
