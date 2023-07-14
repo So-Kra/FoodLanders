@@ -10,5 +10,7 @@ function includeHTML(file, elementId) {
     xhttp.send();
   }
   
-  includeHTML('../header.html', 'header');
-  includeHTML('../footer.html', 'footer');
+  includeHTML('header.html', 'header');
+  includeHTML('footer.html', 'footer');
+  includeHTML('../header.html', 'headerDeep');
+  includeHTML('../footer.html', 'footerDeep');
