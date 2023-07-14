@@ -1,3 +1,10 @@
+const express = require('express');
+const cors = require('cors');
+
+const app = express();
+
+app.use(cors());
+
 
 function includeHTML(file, elementId) {
     var xhttp = new XMLHttpRequest();
